@@ -1,0 +1,6 @@
+framework module Pods_VideoDownloder {
+  umbrella header "Pods-VideoDownloder-umbrella.h"
+
+  export *
+  module * { export * }
+}
