@@ -7,14 +7,22 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let url = URL(string: "https://app.coverr.co/s3/mp4/Bokeh-Go-Around.mp4")
+        
+        let player = AVPlayer(url: url!)
+        
+        let playerLayer = AVPlayerLayer(player: player)
+        playerLayer.frame = view.bounds
+        view.layer.addSublayer(playerLayer)
+        
+        player.play()
     }
-
-
 }
 
