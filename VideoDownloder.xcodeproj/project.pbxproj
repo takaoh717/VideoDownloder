@@ -10,6 +10,7 @@
 		1AEC907E17F5733E45294D2F /* Pods_VideoDownloderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52EA7490B0937617DB80A5E /* Pods_VideoDownloderTests.framework */; };
 		359A9D65DAA4651440795CEA /* Pods_VideoDownloder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E213E7B0BFB03938F4A918 /* Pods_VideoDownloder.framework */; };
 		BF818765A126768AAAB3CA7B /* Pods_VideoDownloderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59769C85EB33752C74B2EDB5 /* Pods_VideoDownloderUITests.framework */; };
+		DB9EC93421FB49A500C8702E /* AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9EC93321FB49A500C8702E /* AVPlayerViewController.swift */; };
 		DBBFB4B121FB358000A35BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFB4B021FB358000A35BF0 /* AppDelegate.swift */; };
 		DBBFB4B321FB358000A35BF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFB4B221FB358000A35BF0 /* ViewController.swift */; };
 		DBBFB4B621FB358000A35BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBFB4B421FB358000A35BF0 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		59769C85EB33752C74B2EDB5 /* Pods_VideoDownloderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoDownloderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C177239199240AFBCDDFF20D /* Pods-VideoDownloderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDownloderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDownloderTests/Pods-VideoDownloderTests.release.xcconfig"; sourceTree = "<group>"; };
 		D4E001CE1CD36681D5446249 /* Pods-VideoDownloderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDownloderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDownloderTests/Pods-VideoDownloderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB9EC93321FB49A500C8702E /* AVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewController.swift; sourceTree = "<group>"; };
 		DBBFB4AD21FB358000A35BF0 /* VideoDownloder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoDownloder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBFB4B021FB358000A35BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBBFB4B221FB358000A35BF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				DBBFB4B721FB358100A35BF0 /* Assets.xcassets */,
 				DBBFB4B921FB358100A35BF0 /* LaunchScreen.storyboard */,
 				DBBFB4BC21FB358100A35BF0 /* Info.plist */,
+				DB9EC93321FB49A500C8702E /* AVPlayerViewController.swift */,
 			);
 			path = VideoDownloder;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBFB4B321FB358000A35BF0 /* ViewController.swift in Sources */,
+				DB9EC93421FB49A500C8702E /* AVPlayerViewController.swift in Sources */,
 				DBBFB4B121FB358000A35BF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
